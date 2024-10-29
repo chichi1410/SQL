@@ -1,0 +1,11 @@
+-- SELECT 
+-- SELECT * FROM sinhvien : câu lệnh lấy tất cả các sv trong bảng
+-- SELECT hoDem , ten FROM sinhvien;   : câu lệnh lấy họ đệm và tên trong bảng
+-- SELECT DISTINCT maChuongTrinhDaoTao FROM sinhvien ;  // nếu có 2 tên trùng nhâu chỉ lấy 1 cái 
+
+
+-- WHERE 
+-- lấy tất cả sinh viên có ctdt là CNTT
+-- SELECT * FROM sinhvien WHERE (maChuongTrinhDaoTao = "CNTT");  // lấy tất cả sinh viên có ctdt là CNTT
+-- lấy sinh viên có năm nhập học lớn hơn hoặc bằng 2022
+-- SELECT * FROM sinhvien WHERE (namNhapHoc >= 2022);
