@@ -1,3 +1,5 @@
+app.diagrams.net   //  web ve so do 
+nên tạo bảng có ít quan hệ nhất trước rồi mới tạo bảng có quan hệ nhiều(bảng có quan hệ 1)
 SQL chia làm 4 nhánh
 nhánH 1 DDL (data definition) // câu lệnh liên quan đến định nghĩa dữ liệu
 nhánh 2 DQL (data Query language)
@@ -11,7 +13,7 @@ Nhánh DDL
 - rename : thay đổi tên
 - truncate  : xoá tất cả dữ liệu trong table nào đó
 
-Nhánh DQl
+Nhánh DQl  
 - select   : lấy dữ liệu từ bảng ra
 
 Nhanhs DML

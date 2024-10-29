@@ -1,0 +1,4 @@
+INSERT INTO sinhvien (maSinhVien , hoDem , ten , ngaySinh , namNhapHoc , maChuongTrinhDaoTao , gioiTinh) VALUES (
+"05" , "Trần Bắc" ,"Huyền" , "14-10-2004" , 2022 , "CNTT" , 1);
+
+SỬ DỤNG insert để thêm sinh viên trần bắc huyền vào bảng sinh viên
