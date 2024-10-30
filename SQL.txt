@@ -28,6 +28,13 @@ Nhánh DCL // it dử dụng
 - revoke  : 
 
 connection sql vs java
+có 5 bước để connect với SQL
+B1 tạo kết nối 
+B2 tạo đối tượng statement
+B3 thực thi 1 câu lệnh SQL
+B4 xử lý kết quả
+B5 disconect
+
 nho import java.sql.connection;
 
 public static Connection getConnection(){
@@ -36,3 +43,4 @@ string url
 var password
 var username
 c = driveManager.getConnection(url , password , username);
+
