@@ -17,7 +17,8 @@ Nhánh DQl
 - select   : lấy dữ liệu từ bảng ra
 
 Nhanhs DML
- - insert   : có thể thêm  1 dòng vào
+ - insert   : có thể thêm  1 dòng 
+vào
 - update : cập nhật
 - delete : xoá 
 - merge : trộn
@@ -25,3 +26,13 @@ Nhanhs DML
 Nhánh DCL // it dử dụng
 - grant   :
 - revoke  : 
+
+connection sql vs java
+nho import java.sql.connection;
+
+public static Connection getConnection(){
+cho connection = null
+string url
+var password
+var username
+c = driveManager.getConnection(url , password , username);
