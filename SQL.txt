@@ -39,9 +39,9 @@ nho import java.sql.connection;
 
 public static Connection getConnection(){
 cho connection = null
-string url
-var password
-var username
+string url "jdbc:mySQL://localhost:3306/'namedatabase'"
+var password = "";
+var username = "root";
 c = driveManager.getConnection(url , password , username);
 
 Data access object
