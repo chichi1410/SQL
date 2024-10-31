@@ -29,11 +29,11 @@ Nhánh DCL // it dử dụng
 
 connection sql vs java
 có 5 bước để connect với SQL
-B1 tạo kết nối 
-B2 tạo đối tượng statement
-B3 thực thi 1 câu lệnh SQL
-B4 xử lý kết quả
-B5 disconect
+B1 tạo kết nối  (Connection connection = JDBC.getConnection();)
+B2 tạo đối tượng statement (Statement sr = connection.creatStatement() ;)
+B3 thực thi 1 câu lệnh SQL (String sql = "lenh") // int check = sr.executeupdate(sql)
+B4 xử lý kết quả (tao dk if else)
+B5 disconect (goi ham disconnect)
 
 nho import java.sql.connection;
 
