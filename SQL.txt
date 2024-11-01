@@ -35,14 +35,16 @@ B3 thực thi 1 câu lệnh SQL (String sql = "lenh") // int check = sr.executeu
 B4 xử lý kết quả (tao dk if else)
 B5 disconect (goi ham disconnect)
 
-nho import java.sql.connection;
 
+// cach khai bao vao gan url
+nho import java.sql.connection;
 public static Connection getConnection(){
 cho connection = null
 string url "jdbc:mySQL://localhost:3306/'namedatabase'"
 var password = "";
 var username = "root";
 c = driveManager.getConnection(url , password , username);
+
 
 Data access object
 viet tat cua DAO
@@ -54,5 +56,5 @@ dow mysql connecter
 https://repo1.maven.org/maven2/com/mysql/mysql-connector-j/8.0.32/
 dow protobuf
 https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.11.4/
-
+/
 
