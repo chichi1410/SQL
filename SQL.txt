@@ -51,6 +51,9 @@ viet tat cua DAO
 taoj package Dao
 chua interface
 
+Statement 
+su dung ham nay de oan toan tranh bi atack bang sql
+PreparedStatement
 
 dow mysql connecter
 https://repo1.maven.org/maven2/com/mysql/mysql-connector-j/8.0.32/
