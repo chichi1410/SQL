@@ -55,6 +55,32 @@ Statement
 su dung ham nay de oan toan tranh bi atack bang sql
 PreparedStatement
 
+
+
+
+Ánh Xạ Kiểu Dữ Liệu Giữa JDBC và Java
+Kiểu Dữ Liệu Trong Cơ Sở Dữ Liệu (JDBC)	Kiểu Dữ Liệu Trong Java
+CHAR	String
+VARCHAR	String
+LONGVARCHAR	String
+NUMERIC	java.math.BigDecimal
+DECIMAL	java.math.BigDecimal
+INTEGER	int
+SMALLINT	short
+TINYINT	byte
+BIGINT	long
+FLOAT	float
+REAL	float
+DOUBLE	double
+BIT	boolean
+BOOLEAN	boolean
+DATE	java.sql.Date
+TIME	java.sql.Time
+TIMESTAMP	java.sql.Timestamp
+BLOB	byte[]
+CLOB	String
+hebernate // giup toi uu sql
+
 dow mysql connecter
 https://repo1.maven.org/maven2/com/mysql/mysql-connector-j/8.0.32/
 dow protobuf
