@@ -4,6 +4,7 @@
 -- SELECT DISTINCT maChuongTrinhDaoTao FROM sinhvien ;  // nếu có 2 tên trùng nhâu chỉ lấy 1 cái 
 
 
+
 -- WHERE 
 -- lấy tất cả sinh viên có ctdt là CNTT
 -- SELECT * FROM sinhvien WHERE (maChuongTrinhDaoTao = "CNTT");  // lấy tất cả sinh viên có ctdt là CNTT
@@ -24,3 +25,28 @@
 -- NOT // phủ định lại
 -- lấy sinh viên không học ngành công nghệ thông tin 
 -- SELECT * FROM sinhvien WHERE  NOT (maChuongTrinhDaoTao = "CNTT");
+
+
+
+-- ORDER (BY sắp xếp kết quả)
+-- sắp xếp sinh viên theo năm nhập học tăng dần
+-- SELECT * FROM sinhvien ORDER BY namNhapHoc ASC;
+-- săp xếp siinh viên theo ma chương trình dào tạo
+-- SELECT * FROM sinhvien ORDER BY maChuongTrinhDaoTao DESC ; -- sắp xếp theo thứ tự giảm dần của chữ cái đầu tiên
+-- sắp xếp ma ctdt tăng dần , năm nhập học giảm dần 
+-- SELECT * FROM sinhvien OREDR BY maChuongTrinhDaoTao ASC , namNhapHoc DESC ;
+
+
+-- NULL ( tìm kiếm giá trị bị null )
+-- 1 tìm giá trị bị null
+-- SELECT * FROM sinhvien WHERE (ten IS NULL);
+-- xuat ra tất cả giá trị k bị null
+-- SELECT * FROM sinhvien WHERE (ten IS NOT NULL);
+
+
+-- UPDATE ( update bao gômd set và where)
+-- UPDATE chuongtrinhdaotao SET soTinChi = soTinChi + 10; -- tất cả các tín chỉ đều cộng 10
+-- UPDATE chuongtrinhdaotao SET soTinChi = soTinChi + 10 WHERE (namBatDauDaoTao = 2020); -- tất cả các tín chỉ đều cộng 10
+-- UPDATE sinhvien SET hoDem = "nguyen" , ten = "nguyen" WHERE (hoDem IS NULL) AND (ten IS NULL); -- neu có bị null thì chèn vô
+
+
