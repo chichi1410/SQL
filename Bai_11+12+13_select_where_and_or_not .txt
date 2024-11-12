@@ -50,6 +50,6 @@
 -- UPDATE sinhvien SET hoDem = "nguyen" , ten = "nguyen" WHERE (hoDem IS NULL) AND (ten IS NULL); -- neu có bị null thì chèn vô
 
 
---
+-- ens
 --
 --
