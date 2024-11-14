@@ -53,5 +53,5 @@
 -- INSERT (dung de them du lieu)
 --INSERT INTO ten_bang (cot_1, cot_2, ..., cot_n) VALUES (gia_tri_1, gia_tri_2, ..., gia_tri_n);
 
---
+-- //
 --
